@@ -1,0 +1,23 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:THEANTsMAN/aoc2023.git"
+  },
+  "author": "THEANTsMAN",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.10.7",
+    "minimist": "^1.2.8",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
