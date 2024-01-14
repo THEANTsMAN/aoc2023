@@ -1,5 +1,5 @@
 import minimist from 'minimist';
-import { part1 } from "./day1/index"
+import { part2 } from "./day1/index"
 
 const getArgs = async () => {
     const args = minimist(process.argv.slice(2));
@@ -11,7 +11,7 @@ const run = async () => {
     console.log("Running");
     getArgs();
 
-    const result = await part1();
+    const result = await part2();
 
     console.log(result)
   };
